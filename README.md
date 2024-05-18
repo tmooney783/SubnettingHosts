@@ -23,7 +23,7 @@ Starting from the right, it takes me 6 jumps to get to 64 (the first number larg
 
 which means I have to save the last 6 bits from the host section of the subnet mask. 
 
-**This is the only difference from subnetting based on amount of networks needed.**
+**This step is the only difference from subnetting based on amount of networks needed.**
 
 My new subnet mask is:
  
