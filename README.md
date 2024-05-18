@@ -31,9 +31,11 @@ My new subnet mask is:
     11111111.11111111.11111111.11000000
 
 
-New CIDR notation (all the 1's in the binary mask): /26
+New CIDR notation (all the 1's in the binary mask): 
 
-Increment (the last 1 in the network segment converted back to decimal): 64
+    /26
+
+Increment (the last 1 in the network segment converted back to decimal): 
 
 
     11111111.11111111.11111111.  1  1  0  0  0  0  0  0
@@ -50,6 +52,7 @@ There are 64 hosts available in each network.
 To find this, I used 2^6-2.
 
 **^6 because of the 6 remaining 0's in the host section of the binary mask.**
+
 **-2 because 0 is always reserved for the network address and 255 is always reserved for the broadcast address.**
 
 I then logically seperated the network into 3 smaller subnetworks by assigning hosts ip addresses from the 3 ranges.
